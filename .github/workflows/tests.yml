@@ -26,7 +26,7 @@ jobs:
       - name: Publish ABIs
         uses: softprops/action-gh-release@v1
         with:
-          files: |
+          files: | 
             ./out/Multicall.sol/Multicall.json
             ./out/Multicall2.sol/Multicall2.json
             ./out/Multicall3.sol/Multicall3.json
